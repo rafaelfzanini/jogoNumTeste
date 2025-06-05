@@ -9,7 +9,7 @@ function exibirTexto(tag, texto){
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female' , {rate:1.2});
 }
 function exibirMensagemInicial(){
-    exibirTexto('h1', 'Jogo do número secreto');
+    exibirTexto('h1', 'Descubra o número secreto');
     exibirTexto('p', 'Escolha um número entre 1 e 49')
 }
 exibirMensagemInicial();
